@@ -3,3 +3,14 @@ custom:
     version: 32
 server:
   port: 8090
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - info
+          - refresh
+info:
+  application:
+    name: Registration
+    description: Microservice that perform registration of customers.
