@@ -1,0 +1,7 @@
+spring.h2.console.enabled: true
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    password: '{cipher}c81af9cbd1461f0ae90327afd04245a0ca274f8dc7b0bcf092f258a23064fc79f680d3c82251e73aa0f88812aa66fc95'
